@@ -16,6 +16,9 @@
 		BE2395322AE4376A00F3B199 /* ShoeShopUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2395312AE4376A00F3B199 /* ShoeShopUIUITestsLaunchTests.swift */; };
 		BEC2CCF62AE48A6C0083DC70 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CCF52AE48A6C0083DC70 /* CartManager.swift */; };
 		BEC2CCF82AE48A850083DC70 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CCF72AE48A850083DC70 /* PaymentHandler.swift */; };
+		BEC2CCFA2AE48CB20083DC70 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CCF92AE48CB20083DC70 /* UIImage+Extension.swift */; };
+		BEC2CCFC2AE48D000083DC70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CCFB2AE48D000083DC70 /* ContentView.swift */; };
+		BEC2CCFE2AE48D150083DC70 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CCFD2AE48D150083DC70 /* ProductCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		BE2395312AE4376A00F3B199 /* ShoeShopUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeShopUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BEC2CCF52AE48A6C0083DC70 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		BEC2CCF72AE48A850083DC70 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		BEC2CCF92AE48CB20083DC70 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		BEC2CCFB2AE48D000083DC70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEC2CCFD2AE48D150083DC70 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,7 @@
 		BEC2CCF12AE43C300083DC70 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				BEC2CCF92AE48CB20083DC70 /* UIImage+Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -156,6 +163,8 @@
 		BEC2CCF32AE43C5F0083DC70 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BEC2CCFB2AE48D000083DC70 /* ContentView.swift */,
+				BEC2CCFD2AE48D150083DC70 /* ProductCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,8 +308,11 @@
 			files = (
 				BE2395162AE4376800F3B199 /* ContentView.swift in Sources */,
 				BEC2CCF62AE48A6C0083DC70 /* CartManager.swift in Sources */,
+				BEC2CCFC2AE48D000083DC70 /* ContentView.swift in Sources */,
+				BEC2CCFA2AE48CB20083DC70 /* UIImage+Extension.swift in Sources */,
 				BE2395142AE4376800F3B199 /* ShoeShopUIApp.swift in Sources */,
 				BEC2CCF82AE48A850083DC70 /* PaymentHandler.swift in Sources */,
+				BEC2CCFE2AE48D150083DC70 /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
