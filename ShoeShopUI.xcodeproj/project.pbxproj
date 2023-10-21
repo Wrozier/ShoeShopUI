@@ -24,6 +24,8 @@
 		BEC2CD042AE492530083DC70 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CD032AE492530083DC70 /* ProductRow.swift */; };
 		BEC2CD062AE492930083DC70 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CD052AE492930083DC70 /* ProductDetailView.swift */; };
 		BEC2CD082AE492A60083DC70 /* ApplePayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CD072AE492A60083DC70 /* ApplePayButton.swift */; };
+		BEC2CD0A2AE493360083DC70 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CD092AE493360083DC70 /* Product.swift */; };
+		BEC2CD0C2AE4934D0083DC70 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CD0B2AE4934D0083DC70 /* Cart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		BEC2CD032AE492530083DC70 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 		BEC2CD052AE492930083DC70 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		BEC2CD072AE492A60083DC70 /* ApplePayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayButton.swift; sourceTree = "<group>"; };
+		BEC2CD092AE493360083DC70 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BEC2CD0B2AE4934D0083DC70 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +191,8 @@
 		BEC2CCF42AE43C860083DC70 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BEC2CD092AE493360083DC70 /* Product.swift */,
+				BEC2CD0B2AE4934D0083DC70 /* Cart.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -324,6 +330,7 @@
 				BEC2CD022AE492280083DC70 /* CartView.swift in Sources */,
 				BEC2CD002AE492020083DC70 /* ProductListView.swift in Sources */,
 				BEC2CD062AE492930083DC70 /* ProductDetailView.swift in Sources */,
+				BEC2CD0C2AE4934D0083DC70 /* Cart.swift in Sources */,
 				BEC2CD082AE492A60083DC70 /* ApplePayButton.swift in Sources */,
 				BEC2CD042AE492530083DC70 /* ProductRow.swift in Sources */,
 				BE2395162AE4376800F3B199 /* ContentView.swift in Sources */,
@@ -333,6 +340,7 @@
 				BE2395142AE4376800F3B199 /* ShoeShopUIApp.swift in Sources */,
 				BEC2CCF82AE48A850083DC70 /* PaymentHandler.swift in Sources */,
 				BEC2CCFE2AE48D150083DC70 /* ProductCard.swift in Sources */,
+				BEC2CD0A2AE493360083DC70 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
