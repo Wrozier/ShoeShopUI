@@ -14,6 +14,8 @@
 		BE2395262AE4376A00F3B199 /* ShoeShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2395252AE4376A00F3B199 /* ShoeShopUITests.swift */; };
 		BE2395302AE4376A00F3B199 /* ShoeShopUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE23952F2AE4376A00F3B199 /* ShoeShopUIUITests.swift */; };
 		BE2395322AE4376A00F3B199 /* ShoeShopUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2395312AE4376A00F3B199 /* ShoeShopUIUITestsLaunchTests.swift */; };
+		BEC2CCF62AE48A6C0083DC70 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CCF52AE48A6C0083DC70 /* CartManager.swift */; };
+		BEC2CCF82AE48A850083DC70 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CCF72AE48A850083DC70 /* PaymentHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		BE23952B2AE4376A00F3B199 /* ShoeShopUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoeShopUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE23952F2AE4376A00F3B199 /* ShoeShopUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeShopUIUITests.swift; sourceTree = "<group>"; };
 		BE2395312AE4376A00F3B199 /* ShoeShopUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeShopUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEC2CCF52AE48A6C0083DC70 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		BEC2CCF72AE48A850083DC70 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 		BEC2CCF22AE43C450083DC70 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				BEC2CCF52AE48A6C0083DC70 /* CartManager.swift */,
+				BEC2CCF72AE48A850083DC70 /* PaymentHandler.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -292,7 +298,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE2395162AE4376800F3B199 /* ContentView.swift in Sources */,
+				BEC2CCF62AE48A6C0083DC70 /* CartManager.swift in Sources */,
 				BE2395142AE4376800F3B199 /* ShoeShopUIApp.swift in Sources */,
+				BEC2CCF82AE48A850083DC70 /* PaymentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
