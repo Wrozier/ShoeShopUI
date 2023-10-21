@@ -19,6 +19,11 @@
 		BEC2CCFA2AE48CB20083DC70 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CCF92AE48CB20083DC70 /* UIImage+Extension.swift */; };
 		BEC2CCFC2AE48D000083DC70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CCFB2AE48D000083DC70 /* ContentView.swift */; };
 		BEC2CCFE2AE48D150083DC70 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CCFD2AE48D150083DC70 /* ProductCard.swift */; };
+		BEC2CD002AE492020083DC70 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CCFF2AE492020083DC70 /* ProductListView.swift */; };
+		BEC2CD022AE492280083DC70 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CD012AE492280083DC70 /* CartView.swift */; };
+		BEC2CD042AE492530083DC70 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CD032AE492530083DC70 /* ProductRow.swift */; };
+		BEC2CD062AE492930083DC70 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CD052AE492930083DC70 /* ProductDetailView.swift */; };
+		BEC2CD082AE492A60083DC70 /* ApplePayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2CD072AE492A60083DC70 /* ApplePayButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		BEC2CCF92AE48CB20083DC70 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		BEC2CCFB2AE48D000083DC70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEC2CCFD2AE48D150083DC70 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		BEC2CCFF2AE492020083DC70 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		BEC2CD012AE492280083DC70 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		BEC2CD032AE492530083DC70 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		BEC2CD052AE492930083DC70 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		BEC2CD072AE492A60083DC70 /* ApplePayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +175,11 @@
 			children = (
 				BEC2CCFB2AE48D000083DC70 /* ContentView.swift */,
 				BEC2CCFD2AE48D150083DC70 /* ProductCard.swift */,
+				BEC2CCFF2AE492020083DC70 /* ProductListView.swift */,
+				BEC2CD012AE492280083DC70 /* CartView.swift */,
+				BEC2CD032AE492530083DC70 /* ProductRow.swift */,
+				BEC2CD052AE492930083DC70 /* ProductDetailView.swift */,
+				BEC2CD072AE492A60083DC70 /* ApplePayButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,6 +321,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC2CD022AE492280083DC70 /* CartView.swift in Sources */,
+				BEC2CD002AE492020083DC70 /* ProductListView.swift in Sources */,
+				BEC2CD062AE492930083DC70 /* ProductDetailView.swift in Sources */,
+				BEC2CD082AE492A60083DC70 /* ApplePayButton.swift in Sources */,
+				BEC2CD042AE492530083DC70 /* ProductRow.swift in Sources */,
 				BE2395162AE4376800F3B199 /* ContentView.swift in Sources */,
 				BEC2CCF62AE48A6C0083DC70 /* CartManager.swift in Sources */,
 				BEC2CCFC2AE48D000083DC70 /* ContentView.swift in Sources */,
